@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Matt Haag | Artist, Illustrator and Author | Haag House Press</title>
+<meta name="description" content="Matt Haag is an artist, illustrator, and author based in Utah. Creator of The Relic Order — a darkly whimsical middle grade fantasy series launching August 2026. Original paintings, illustrated books, and more.">
+<meta name="keywords" content="Matt Haag, The Relic Order, middle grade fantasy, illustrated children's books, original oil paintings, Spartacus Design, Haag House Press, fantasy series for kids, author illustrator Utah">
+
+<!-- Social sharing -->
+<meta property="og:title" content="Matt Haag | Artist, Illustrator and Author">
+<meta property="og:description" content="Creator of The Relic Order — a darkly whimsical middle grade fantasy launching August 2026. Original oil paintings, illustrated books, and more.">
+<meta property="og:type" content="website">
+<!-- TODO: swap this for the finished book-cover export from Canva, 1200x630 -->
+<meta property="og:image" content="assets/images/site/theatre-entrance.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">Matt Haag</a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="relic-order.html">The Relic Order</a></li>
+      <li><a href="relic-order.html#notify">Get Notified</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-bg" style="background-image: url('assets/images/site/moonlit-trio.png');"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Artist &middot; Illustrator &middot; Author</div>
+    <h1>Matt Haag</h1>
+    <div class="subhead">Worlds built by hand, one page at a time.</div>
+    <p>Creator of <em>The Relic Order</em> — a darkly whimsical middle grade fantasy series launching August 2026. Original paintings, illustrated books, and stories that don't quite let go.</p>
+    <a href="relic-order.html" class="btn btn-solid">Discover The Relic Order</a>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-kicker">About</div>
+    <h2 class="section-heading">Written and illustrated by Matt Haag</h2>
+    <div class="prose" style="text-align:center; color: var(--text-muted);">
+      <p>Matt Haag has been creating worlds on paper since he was three years old. An artist, illustrator, and author based in Bountiful, Utah, Matt brings <em>The Relic Order</em> to life with his own hand — every illustration in the book is his. The series has been years in the making, and the story of Cedric and his world is one Matt has been living with for a long time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="container">
+    <div class="section-kicker">Book One of Seven</div>
+    <div class="book-teaser">
+      <div class="book-teaser-art">
+        <img src="assets/images/site/theatre-entrance.png" alt="The Relic Order: The Treacherous Theatre — illustration">
+      </div>
+      <div class="book-teaser-text">
+        <div class="tag">Coming August 2026</div>
+        <h2>The Relic Order: The Treacherous Theatre</h2>
+        <p>Cedric is thirteen years old, an orphan, and slowly going mad. He has seven days to find the missing pieces of the world-gear before it all collapses — along with his mind. There's just one problem: the child collectors are hunting him.</p>
+        <p><em>Dark, funny, and impossible to put down.</em></p>
+        <a href="relic-order.html" class="btn">Read the Full Story</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="notify">
+  <div class="container signup-box">
+    <div class="section-kicker">Stay in the Loop</div>
+    <h2 class="section-heading">Be the first to know when it's here.</h2>
+    <p class="lede">The Relic Order launches August 2026. Sign up and you'll hear the moment it's available to order — plus early looks at illustrations, character reveals, and behind-the-scenes glimpses of the world Matt is building.</p>
+
+    <form class="signup-form" action="https://assets.mailerlite.com/jsonp/2499077/forms/192489974207087839/subscribe" method="post" data-mailerlite>
+      <input type="email" name="fields[email]" placeholder="Your email address" required autocomplete="email">
+      <input type="hidden" name="ml-submit" value="1">
+      <input type="hidden" name="anticsrf" value="true">
+      <button type="submit" class="btn btn-solid">Sign Up</button>
+    </form>
+    <p class="signup-success" hidden>Thanks — you're on the list! We'll email you the moment <em>The Relic Order</em> launches.</p>
+    <p class="signup-note">No spam, ever. Just news about the books.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p class="footer-note"><em>The Relic Order: The Treacherous Theatre</em> is the first book in a seven-part fantasy series by Matt Haag, published through Haag House Press. Illustrated by the author.</p>
+  <p class="footer-links"><a href="https://haaghousepress.com" target="_blank" rel="noopener">Haag House Press</a> &middot; <a href="https://spartacusdesign.com" target="_blank" rel="noopener">Spartacus Design</a></p>
+  <p>&copy; <span id="year"></span> Matt Haag &middot; Haag House Press</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
