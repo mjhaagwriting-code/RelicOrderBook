@@ -286,7 +286,7 @@ section.alt { background: var(--bg-alt); }
 /* ---------- Character cards ---------- */
 .character-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 28px;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -407,8 +407,12 @@ section.alt { background: var(--bg-alt); }
 .author-block .prose p { color: var(--text-muted); }
 
 /* ---------- Responsive ---------- */
+@media (min-width: 601px) and (max-width: 1099px) {
+  .character-grid { grid-template-columns: repeat(2, 1fr); }
+}
 @media (max-width: 860px) {
-  .info-grid, .character-grid { grid-template-columns: 1fr; }
+  .info-grid { grid-template-columns: 1fr; }
+  .character-grid { grid-template-columns: 1fr; }
   .book-teaser, .author-block { grid-template-columns: 1fr; }
   .nav-links {
     position: absolute;
