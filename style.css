@@ -108,6 +108,18 @@ body::before {
 }
 .nav-links a:hover { color: var(--accent-gold); }
 
+.nav-links a.nav-cta {
+  background: var(--accent-red);
+  color: var(--text);
+  padding: 8px 18px;
+  border-radius: 3px;
+  text-transform: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+.nav-links a.nav-cta:hover { background: var(--accent-red-bright); color: #fff; }
+
 .nav-toggle {
   display: none;
   background: none;
